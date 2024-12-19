@@ -1,0 +1,18 @@
+// Read mass and velocity of an object and calculate Kinetic Energy of an object.
+
+import java.util.*;
+public class Sample
+{
+	public static void main(String[] args)
+	{
+		float m, v, ke;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Mass and Veocity:");
+		m = sc.nextFloat();
+		v = sc.nextFloat();
+		
+		ke = 0.5f*m*v*v;
+		
+		System.out.println("Kinetic Energy of an object:"+ke); 
+	}
+}
